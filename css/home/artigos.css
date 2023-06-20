@@ -1,0 +1,54 @@
+.artigos-bg {
+    background-color: #e9e8e8;
+    display: grid;
+    justify-content: center;
+}
+
+.artigos-bg .container>h2 {
+    padding-top: 40px;
+}
+
+.artigos-bg .container {
+    row-gap: 25px;
+    padding-bottom: 70px;
+}
+
+
+.sessao-de-artigos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 70px;
+}
+
+.artigos-divisoria {
+    display: flex;
+    gap: 80px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.artigo {
+    max-width: 410px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.artigo img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.artigo h3{
+font-family: 'Courier New', Courier, monospace;
+    padding-top: 12px;
+padding-left: 18px;
+padding-bottom: 12px;
+text-align: justify;
+}
+
+.artigo p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    max-width: 40ch;
+    padding-left: 18px;
+    padding-bottom: 30px;
+}

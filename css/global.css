@@ -1,0 +1,50 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+li,
+ul,
+section,
+header,
+article{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+    display: grid;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+border: 0px;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: #000;
+}
+
+ol{
+padding-left: 20px;
+margin: 0px;
+}

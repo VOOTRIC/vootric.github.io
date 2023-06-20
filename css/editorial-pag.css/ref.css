@@ -1,0 +1,27 @@
+#editorial .container{
+    padding-top: 80px;
+    row-gap: 30px; 
+    padding-bottom: 140px;
+}
+
+.ref-lista{
+    display: grid;
+    row-gap: 30px;
+}
+
+.ref-lista{
+list-style: none;
+}
+
+.ref-lista a{
+color: black;
+font-family: 'Comfortaa', cursive;
+text-align: justify;
+}
+
+.ref-lista a:hover{
+    color: #810000;
+}
+
+
+

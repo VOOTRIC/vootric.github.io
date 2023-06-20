@@ -1,0 +1,47 @@
+.guia-bg {
+    display: grid;
+}
+
+.guia.container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    justify-self: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.guia-item {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+.guia-item>p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+}
+
+.guia-item>h2 {
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+}
+
+.guia-icon-bg {
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
+
+.guia-icon-bg a{
+        padding: 14px;
+}
+
+.guia.container .guia-item:nth-child(2) .guia-icon-bg {
+    background-color: #fff500;
+}

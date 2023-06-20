@@ -1,0 +1,27 @@
+/* GLOBAL */
+@import "global.css";
+
+
+/* HOME */
+@import "home/intro.css";
+@import "home/guia.css";
+@import "home/artigos.css";
+
+/* EDITORIAL */
+@import "editorial-pag.css/editorial.css";
+@import "editorial-pag.css/ref.css";
+
+/* ARTIGOS */
+@import "artigos.css/artigos.css";
+
+
+/* UTILITÁRIOS */
+@import "utilitários/header.css";
+@import "utilitários/container.css";
+@import "utilitários/tipografia.css";
+@import "utilitários/footer.css";
+@import "utilitários/navegador.css";
+
+/* JOGOS */
+@import "jogos/jogos.css";
+@import "jogos/respostas.css";

@@ -1,0 +1,56 @@
+.revista-section {
+  display: grid;
+}
+
+.revista-bg {
+  background-image: url("/img/header/rubem.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-self: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  max-width: 1910px;
+}
+  
+
+.mini-revista {
+  align-self: center;
+  z-index: 1;
+  margin-left: 266px;
+}
+
+.mini-revista::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 200px;
+  width: 338px;
+  height: 400px;
+  top: 60px;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.mini-revista>.header-links {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.mini-capa {
+  display: grid;
+  align-content: center;
+}
+
+.mini-capa>img {
+  width: 202px;
+  height: 250px;
+}
+
+/* 
+Centralizar o conteúdo em 1220px
+Colocar um texto de "Bem-vindo" com animação, ao lado da miniatura da revista
+colocar paddings laterais pra desgrudar a imagem do canto, ou fazer uma div fora dela e centralizar essa div */

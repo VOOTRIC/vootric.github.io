@@ -1,0 +1,117 @@
+.palavras-respostas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+
+}.jogo-palavras{
+display: flex;
+flex-direction: column;
+gap: 80px;
+}
+
+
+.palavras{
+display: flex;
+flex-direction: column;
+gap: 10px;
+max-height: 160px;
+width: 400px;
+overflow-y: auto; 
+
+/* BACKGROUND */
+background-color: #f1f1f1;
+padding: 10px 5px;
+border-radius: 8px; 
+border: 1px solid #e0e0e0;
+}
+
+.palavras > h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+.palavras  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.palavras > ul > li{
+    padding: 0px 70px 0px 8px;
+    font-size: 0.85rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* RESPOSTAS */
+
+.respostas-container{
+    display: grid;
+    max-width: 1220px;
+    justify-self: center;
+    box-sizing: border-box;
+}
+
+.jogo-respostas{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.respostas{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    
+    /* BACKGROUND */
+    background-color: #f1f1f1;
+    padding: 10px 5px;
+    border-radius: 8px; 
+    border: 1px solid #e0e0e0;
+}
+
+.respostas::before{
+    content: '';
+    background-image: url("/img/icons/interrogacao.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+
+}
+
+.respostas:hover::before{
+background: transparent;
+transition: 0.5s;
+transition-delay: 0.1s;
+}
+
+.respostas > h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+.respostas ul{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 250px;
+}
+
+.respostas ul > li{
+    padding: 0px 70px 0px 8px;
+    font-size: 0.85rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
